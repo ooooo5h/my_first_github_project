@@ -7,4 +7,9 @@ for i in range(2, num):
     if num % i == 0:
         # 소수 발견!!
         is_prime_num == False
-            
+
+# is_prime_num이 True라면 소수가 맞다
+if is_prime_num:
+    print(f'{num}은 소수가 맞습니다.')
+else:
+    print(f'{num}은 소수가 아닙니다.')            
